@@ -1,0 +1,58 @@
+body{
+	background-image: url(fondo1.jpg);
+	color: rgb(255, 255, 255);
+  } 
+
+  ul{
+    list-style: none;
+    /*list-style-image: url(crown.png);
+    margin-left: 250px;*/
+  }
+
+  li::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  a{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h1{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  label{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  form{
+    text-align: center;
+  }
